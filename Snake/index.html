@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Welcome to Snake game</h2>
+    <div style="display: none;">
+        <img src="img/food.jpg" alt="food" id="food" width="20" height="20">
+    </div>
+    Game mod: <input type="radio" name="mod" value="1" id="wall" checked>
+    <label for="wall">Wall</label> 
+    <input type="radio" name="mod" value="0" id="nowall">
+    <label for="nowall">No wall</label>
+    <input type="button" value="Start" onclick="start()" id="submit">
+    <input type="button" value="Reset" onclick="newGame()">
+    <div id="info"></div>
+    <canvas id="canvas"></canvas>
+    <div id="score"></div>
+    <script src="index.js"></script>
+</body>
+</html>

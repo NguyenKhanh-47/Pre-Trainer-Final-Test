@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="text-align: center">
+        <form onsubmit="return false" action="">
+            <span style="color: orange;">Number of grid </span><input type="number" id="number" autofocus min="3" required>
+            <span style="color: orange;">Numbers to win </span><input type="number" id="numWin" required min="3">
+            <input type="submit" value="Create" onclick="render()" id="submit">
+            <input type="button" value="Reset" onclick="clearGame()" style="background: orange;">
+        </form>
+    <div id="info">&nbsp;</div>
+    <canvas id="myCanvas"></canvas>
+    <script src="index.js"></script>
+</body>
+</html>

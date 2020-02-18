@@ -1,0 +1,20 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+#myCanvas:hover {
+    cursor: pointer;
+} 
+input[type = "submit"] {
+    padding: 5px;
+    background: orange;
+}
+input {
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+}
+#info {
+    color: orangered;
+    padding-top: 20px;
+}

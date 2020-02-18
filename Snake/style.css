@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    color: orange;
+    background: #7af0a1;
+}
+input {
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+    background: orange;
+}
+#canvas {
+    margin-top: 20px;
+}
+#score, #info {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
