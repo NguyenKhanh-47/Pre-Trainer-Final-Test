@@ -1,0 +1,15 @@
+/* #level {
+    display: block;
+    color: #8cf76c
+} */
+
+/* #canvas {
+    text-align: center;
+    display: block;
+} */
+
+body {
+    background-image: url(./images/background.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
