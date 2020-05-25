@@ -264,8 +264,10 @@ var drawNumber = (count, tempX, tempY, check) => {
             ctx.font = "20px Arial";
             ctx.textAlign = "center";
             ctx.fillText(count, tempX + grid/2, tempY + grid/2 + 8);
+            win();
         } else {
             repeat(tempX, tempY);
+            win();
         }
     } else {
         var isFlag = 0;
@@ -294,7 +296,6 @@ var drawNumber = (count, tempX, tempY, check) => {
             ctx.drawImage(flagImg, 80, 60, 300, 350, tempX + 2, tempY + 2, grid - 4, grid - 4);
         }
     }
-    win();
 }
 
 var win = () => {
